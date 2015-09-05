@@ -10,7 +10,7 @@ type Trigger struct {
 // TriggerResponse represents trigger reponse in OO
 type TriggerResponse int
 
-// HandleResponse - print content packs
+// HandleResponse - prints trigger response (execution ID)
 func (triggerResp TriggerResponse) HandleResponse() {
 	fmt.Printf("Flow Triggered.\nExecution ID: %v\n", triggerResp)
 }

@@ -9,6 +9,7 @@ import (
 	"github.com/dorsha/go2oo/restUtil"
 )
 
+// consts for all cli commands
 const (
 	getConfigItems  = "get-config-items"
 	getContentPacks = "show-content-packs"
