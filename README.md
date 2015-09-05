@@ -15,7 +15,11 @@ Go CLI for HP OO actions
 
 ## Usage
 ```go2oo.exe --help ```  
+
+**Show deployed content packs example**  
 ```go2oo.exe --url https://localhost:8443/oo --action show-content-packs ```  
+
 With Authentication enabled:  
 ```go2oo.exe --url https://localhost:8443/oo --action show-content-packs --user <user> --password <password> ```  
-*CSRF supported*
+
+**CSRF supported**
