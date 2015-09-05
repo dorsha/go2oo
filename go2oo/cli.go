@@ -15,6 +15,10 @@ const (
 	trigger         = "trigger"
 )
 
+const (
+	restURI = "/rest/latest/"
+)
+
 var (
 	url      = flag.String("url", "http://localhost:8080/oo", "The URL of Central (i.e. http://localhost:8080/oo)")
 	user     = flag.String("user", "", "User name for Central")
@@ -31,7 +35,7 @@ func main() {
 	}
 
 	client := restUtil.CreateHTTPClient()
-	restURL := *url + "/rest/latest/"
+	restURL := *url + restURI
 
 	switch {
 	case *action == getConfigItems:
