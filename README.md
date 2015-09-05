@@ -10,8 +10,7 @@ Go CLI for HP OO actions
 ## Install
 * go get -u -t -v github.com/dorsha/go2oo  
   (or download as .zip / .tar.gz)
-* Navigate to github.com/dorsha/go2oo/go2oo
-* go build
+* go build (from the root directory)
 
 ## Usage
 ```go2oo.exe --help ```  
