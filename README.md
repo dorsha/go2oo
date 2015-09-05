@@ -14,5 +14,5 @@ Go CLI for HP OO actions
 * go build
 
 ## Usage
-go2oo.exe -help
+go2oo.exe -help  
 go2oo.exe --url https://localhost:8443/oo --action show-content-packs
