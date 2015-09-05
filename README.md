@@ -10,7 +10,6 @@ Go CLI for HP OO actions
 ## Install
 * go get -u -t -v github.com/dorsha/go2oo
 * Navigate to github.com/dorsha/go2oo/go2oo
-* go install
 * go build
 
 ## Usage
