@@ -47,22 +47,36 @@
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
 <ul>
-<li>go get -u -t -v github.com/dorsha/go2oo (or download as .zip .tar.gz)</li>
-<li>Navigate to github.com/dorsha/go2oo/go2oo</li>
-<li>go build</li>
+<li>go get -u -t -v github.com/dorsha/go2oo<br>
+(or download as .zip / .tar.gz)</li>
+<li>go build (from the root directory)</li>
 </ul>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<p><code>go2oo.exe --help</code><br>
-<code>go2oo.exe --url https://localhost:8443/oo --action show-content-packs</code><br>
-With Authentication enabled:<br>
-<code>go2oo.exe --url https://localhost:8443/oo --action show-content-packs --user &lt;user&gt; --password &lt;password&gt;</code><br>
-<em>CSRF supported</em></p>
+<p><code>go2oo.exe --help</code>  </p>
+
+<p><strong>Show deployed content packs example</strong><br>
+<code>go2oo.exe --url https://localhost:8443/oo --action show-content-packs</code>  </p>
+
+<p>With authentication enabled in Central:<br>
+<code>go2oo.exe --url https://localhost:8443/oo --action show-content-packs --user &lt;user&gt; --password &lt;password&gt;</code>  </p>
+
+<p><em>CSRF supported</em></p>
       </section>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-67247424-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
