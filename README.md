@@ -21,5 +21,5 @@ Go CLI for HP OO actions
 
 With authentication enabled in Central:  
 ```go2oo.exe --url https://localhost:8443/oo --action show-content-packs --user <user> --password <password> ```  
-
+  
 *CSRF supported*
