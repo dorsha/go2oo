@@ -51,7 +51,7 @@ func main() {
 		cps.HandleResponse()
 	case *action == trigger:
 		if len(*uuid) == 0 {
-			fmt.Println("UUID must be specidied (--uuid)")
+			fmt.Println("UUID must be specified (--uuid)")
 			os.Exit(1)
 		}
 		fmt.Println("Triggering flow: " + *uuid)
